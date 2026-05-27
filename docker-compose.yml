@@ -1,0 +1,7 @@
+services:
+  front-despacho:
+    build: .
+    container_name: front-despacho
+    ports:
+      - "80:80"
+    restart: unless-stopped
